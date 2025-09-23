@@ -1,5 +1,3 @@
------
-
 ## TubeFetch
 
 A simple, cross-platform YouTube video downloader with a graphical user interface (GUI) built using **Flet** and **yt-dlp**. This application allows users to fetch available video qualities and download YouTube videos directly to their local machine.
