@@ -1,10 +1,10 @@
-# 🎵 TubeFetch
+# TubeFetch
 
 A simple, cross-platform YouTube video downloader with a graphical user interface (GUI) built using **Flet** and **yt-dlp**. This application allows users to fetch available video qualities and download YouTube videos directly to their local machine.
 
 -----
 
-## ✨ Features
+## Features
 
   - **Get Qualities:** Fetch all available video qualities, including audio-only and video-only options.
   - **Download:** Download videos in your selected quality.
@@ -47,7 +47,7 @@ Before you begin, ensure you have the following installed on your system:
 
 -----
 
-## 🚀 Setup and Running the Application
+## Setup and Running the Application
 
 Follow these steps to set up and run the application from the source code:
 
@@ -109,7 +109,7 @@ You can package the application into a standalone executable using **PyInstaller
 
 -----
 
-## 🖥️ Usage
+## Usage
 
 1.  Run the application.
 2.  Enter a YouTube video URL into the input field.
