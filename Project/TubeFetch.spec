@@ -1,14 +1,12 @@
 # -*- mode: python ; coding: utf-8 -*-
 
 import os
-import flet # تأكد من استيراد flet هنا
+import flet 
 
 block_cipher = None
 
-# المسار إلى ملف main.py الخاص بتطبيق Flet
 flet_app_path = 'main.py'
 
-# الحصول على مسار أصول Flet الداخلية
 flet_path = os.path.dirname(os.path.abspath(flet.__file__))
 flet_assets_path = os.path.join(flet_path, 'client', 'public')
 
@@ -19,7 +17,7 @@ a = Analysis(
     datas=[
         # (flet_assets_path, 'flet_app/client/public'), # Removed as the directory was not found
     ],
-    hiddenimports=['flet_core'], # تأكد من تضمين flet_core
+    hiddenimports=['flet_core'], 
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
@@ -41,7 +39,7 @@ exe = EXE(
     bootloader_ignore_signals=False,
     strip=False,
     upx=True,
-    console=False, # اجعلها False لتطبيق رسومي بدون نافذة طرفية
+    console=False, 
     disable_windowed_traceback=False,
     argv_emulation=False,
     target_arch=None,
