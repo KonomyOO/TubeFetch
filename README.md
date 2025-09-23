@@ -1,4 +1,6 @@
-# TubeFetch
+-----
+
+## TubeFetch
 
 A simple, cross-platform YouTube video downloader with a graphical user interface (GUI) built using **Flet** and **yt-dlp**. This application allows users to fetch available video qualities and download YouTube videos directly to their local machine.
 
@@ -55,14 +57,14 @@ Follow these steps to set up and run the application from the source code:
 
     ```bash
     git clone https://github.com/KonomyOO/TubeFetch.git
-    cd TubeFetch/Project
+    cd TubeFetch/Project/TubeFetch
     ```
 
 2.  **Create a virtual environment (recommended):**
 
     ```bash
     python3 -m venv venv
-    source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+    source venv/bin/activate
     ```
 
 3.  **Install dependencies:**
@@ -91,7 +93,7 @@ You can package the application into a standalone executable using **PyInstaller
     pip install pyinstaller
     ```
 
-2.  **Navigate to the application directory:** Make sure you are in the `Project` directory where `main.py` is located.
+2.  **Navigate to the application directory:** Make sure you are in the `TubeFetch` directory (inside `Project`) where `main.py` is located.
 
 3.  **Build the executable:** Use the prepared `.spec` file.
 
