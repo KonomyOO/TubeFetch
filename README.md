@@ -58,7 +58,7 @@ Follow these steps to set up and run the application from the source code:
     cd TubeFetch/Project/TubeFetch
     ```
 
-2.  **Create a virtual environment (recommended):**
+2.  **Create a virtual environment:**
 
     ```bash
     python3 -m venv venv
@@ -79,7 +79,7 @@ Follow these steps to set up and run the application from the source code:
 
 -----
 
-## 📦 Building a Standalone Executable (Optional)
+## 📦 Building a Standalone Executable
 
 You can package the application into a standalone executable using **PyInstaller**. This allows it to run on machines without a Python environment installed (though `ffmpeg` is still required).
 
