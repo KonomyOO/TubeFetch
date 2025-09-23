@@ -55,7 +55,7 @@ Follow these steps to set up and run the application from the source code:
 
     ```bash
     git clone https://github.com/KonomyOO/TubeFetch.git
-    cd TubeFetch/Project/TubeFetch
+    cd TubeFetch/Project
     ```
 
 2.  **Create a virtual environment (recommended):**
