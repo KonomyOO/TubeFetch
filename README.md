@@ -96,7 +96,7 @@ You can package the application into a standalone executable using **PyInstaller
 3.  **Build the executable:** Use the prepared `.spec` file.
 
     ```bash
-    pyinstaller youtube_downloader.spec
+    pyinstaller TubeFetch.spec
     ```
 
     *(If the `.spec` file is not present, you can use a simpler command like: `pyinstaller --noconfirm --onedir --windowed --name "TubeFetch" main.py`)*
