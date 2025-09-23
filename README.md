@@ -58,7 +58,7 @@ Follow these steps to set up and run the application from the source code:
     cd TubeFetch/Project/TubeFetch
     ```
 
-2.  **Create a virtual environment (Optional):**
+2.  **Create a virtual environment (recommended):**
 
     ```bash
     python3 -m venv venv
