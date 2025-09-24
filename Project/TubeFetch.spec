@@ -1,11 +1,10 @@
 # -*- mode: python ; coding: utf-8 -*-
 
 import os
-import flet # تأكد من استيراد flet هنا
+import flet 
 
 block_cipher = None
 
-# المسار إلى ملف main.py الخاص بتطبيق Flet
 flet_app_path = 'main.py'
 
 # الحصول على مسار أصول Flet الداخلية (تم إزالته لأنه لم يتم العثور عليه سابقًا)
@@ -37,7 +36,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name='TubeFetch', # تم تحديث الاسم إلى TubeFetch
+    name='TubeFetch', 
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -56,5 +55,5 @@ coll = COLLECT(
     strip=False,
     upx=True,
     upx_exclude=[],
-    name='TubeFetch', # تم تحديث الاسم إلى TubeFetch
+    name='TubeFetch',
 )
