@@ -7,7 +7,6 @@ block_cipher = None
 
 flet_app_path = 'main.py'
 
-# الحصول على مسار أصول Flet الداخلية (تم إزالته لأنه لم يتم العثور عليه سابقًا)
 # flet_path = os.path.dirname(os.path.abspath(flet.__file__))
 # flet_assets_path = os.path.join(flet_path, 'client', 'public')
 
@@ -18,8 +17,10 @@ a = Analysis(
     datas=[
         # إذا أضفت أي ملفات غير برمجية (مثل صور، ملفات إعدادات) تحتاج إلى تضمينها، أضفها هنا.
         # مثال: ('path/to/your/image.png', '.'),
+        #If you've added any non-code files (like images, configuration files) that need to be included, add them here.
+        #example: ('path/to/your/image.png', '.'),
     ],
-    hiddenimports=['flet_core'], # تأكد من تضمين flet_core
+    hiddenimports=['flet_core'], # تأكد من تضمين flet_core!, Be sure to include flet_core.
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
@@ -41,7 +42,7 @@ exe = EXE(
     bootloader_ignore_signals=False,
     strip=False,
     upx=True,
-    console=False, #  False لتطبيق رسومي بدون نافذة طرفية
+    console=False, #  False لتطبيق رسومي بدون نافذة طرفية, False for a graphical application without a terminal window.
     disable_windowed_traceback=False,
     argv_emulation=False,
     target_arch=None,
